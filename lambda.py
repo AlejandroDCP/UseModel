@@ -1,5 +1,5 @@
 import json
-import boto3
+import boto3 # type: ignore
 
 def lambda_handler(event, context):
     print("Evento recibido:", json.dumps(event))  
